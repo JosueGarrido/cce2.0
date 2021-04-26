@@ -1,0 +1,62 @@
+{
+  "name": "react-api-boilerplate-master",
+  "version": "1.0.0",
+  "dependencies": {
+    "@ant-design/charts": "^1.0.16",
+    "@ant-design/icons": "^4.3.0",
+    "@loadable/component": "^5.14.1",
+    "@rpldy/root": "https://github.com/rpldy/react-uploady.git",
+    "@rpldy/upload-button": "^0.7.4",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "antd": "^4.9.0",
+    "antd-img-crop": "^3.13.2",
+    "bootstrap": "^4.5.3",
+    "cookie": "^0.4.1",
+    "jquery": "^3.5.1",
+    "js-cookie": "^2.2.1",
+    "mdbreact": "^4.27.0",
+    "moment": "^2.29.1",
+    "nprogress": "^0.2.0",
+    "popper.js": "^1.16.1",
+    "react": "^16.14.0",
+    "react-bootstrap": "^1.4.0",
+    "react-dom": "^16.14.0",
+    "react-responsive-carousel": "^3.2.11",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.1",
+    "react-slick": "^0.27.13",
+    "swr": "^0.3.11",
+    "typescript": "^4.1.2"
+  },
+  "homepage": ".",
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@rpldy/upload-preview": "^0.7.4",
+    "babel-eslint": "^10.1.0"
+  },
+  "optionalDependencies": {
+    "fsevents": "*"
+  }
+}

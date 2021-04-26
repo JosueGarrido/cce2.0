@@ -1,0 +1,24 @@
+.images{
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+}
+
+.images2{
+    --webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto ;
+
+}
+
+.search{
+    margin: 20px 0 5px;
+    display: flex;
+}
+

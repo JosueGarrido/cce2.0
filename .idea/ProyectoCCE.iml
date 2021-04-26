@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ventasCCE/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/ventasCCE/app" isTestSource="false" packagePrefix="App\" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/dnoegel/php-xdg-base-dir" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/doctrine/lexer" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/fideloper/proxy" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/fzaninotto/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/jakub-onderka/php-console-color" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/jakub-onderka/php-console-highlighter" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/lcobucci/jwt" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/namshi/jose" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/paragonie/random_compat" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpunit/php-token-stream" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/scrivo/highlight.php" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/debug" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/http-client-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-php56" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-php70" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/polyfill-util" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/tymon/jwt-auth" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/ventasCCE/vendor/webmozart/assert" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

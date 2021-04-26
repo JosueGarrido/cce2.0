@@ -1,0 +1,220 @@
+.imagesPageHB {
+    background-image: url("../images/ImgPages/comprar-img.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto;
+
+}
+
+.header-wrapper-comprar {
+    background: url("../images/ImgPages/comprar-img.png");
+    height: auto;
+    width: auto;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+/*button*/
+nav {
+    margin: 5px 90px;
+    background-color: #000000;
+    box-shadow: 0px 3px 20px 3px #162433;
+
+}
+
+nav ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+    text-align: left;
+}
+
+nav ul li {
+    display:inline-block;
+    background-color: #F7A40A;
+
+
+}
+
+nav a {
+    display: block;
+    padding: 5px 10px;
+    color: #FFF;
+    font-size: 16px;
+    line-height: 60px;
+    text-decoration: none;
+
+}
+
+nav a:hover {
+    background-color: #000000;
+}
+
+/* Hide Dropdowns by Default */
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 70px; /* the height of the main nav */
+}
+
+/* Display Dropdowns on Hover */
+nav ul li:hover > ul {
+    display: inherit;
+}
+
+/* Fisrt Tier Dropdown */
+nav ul ul li {
+    width: 170px;
+    float: none;
+    display: list-item;
+    position: relative;
+}
+
+/* Second, Third and more Tiers	*/
+
+
+i {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 4px;
+    margin: -7px 0 0px 7px;
+    vertical-align: middle;
+}
+
+
+.down {
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+.boton-login-entrar {
+    background-size: cover;
+    background-position: center;
+    font-size:20px;
+    background: rgba(0,0,0,0);
+    border: 2px solid;
+    border-color: #ffffff;
+    transition: all 1.5s ease;
+    font-family:Geosans ;
+    font-weight:bold;
+    color:white;
+    width:120px;
+    height:45px;
+
+}
+.boton-login-entrar:hover {
+    background: #318aac;
+    color: #fff !important;
+    font-family:Geosans ;
+
+}
+.boton-login-registro {
+
+    background-size: cover;
+    background-position: center;
+    color: #ffffff !important;
+    font-size: 2.5em;
+    background: rgba(0,0,0,0);
+    border: 4.5px solid;
+    border-color: #ffffff;
+    transition: all 1.5s ease;
+    font-family:Geosans ;
+    font-weight:bold;
+
+
+}
+
+.boton-login-registro:hover {
+    background: #318aac;
+    color: #fff !important;
+    font-family:Geosans ;
+
+}
+.texto-olvide-clave {
+    font-size: small;
+    font-weight: bold;
+    font-family: Geosans;
+}
+
+.registro {
+    font-size: xx-small;
+    font-family: Geosans;
+}
+
+.texto-compra {
+    font-size: 35pt;
+    font-family: Geometos;
+    font-weight: 900;
+}
+
+.texto-compra2 {
+    font-size: 25pt;
+    font-family: Geosans;
+    margin-right: 30px;
+
+}
+
+.fondo-paginas {
+    background-image: url("../images/ImgPages/fondo-paginas.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 600px;
+    width: auto;
+
+}
+
+.texto-eres-nuevo {
+    font-size: 40pt;
+    font-family: Geometos;
+    font-weight: 900;
+    color: #ffffff;
+}
+
+.para-comprar {
+    font-size: 30pt;
+    font-family: Geosans;
+    color: #ffffff;
+
+}
+
+.tex {
+    font-size: 25pt;
+    font-family: Geosans;
+    margin-left: 40px;
+
+
+}
+.carta {
+    width: 4%;
+    margin-left: 1%;
+    float: left;
+    display: inline-block;
+
+}
+#uno {
+    position: absolute;
+    left: 40px;
+    top: 750px;
+    z-index: 1;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+}
+#dos {
+    position: absolute;
+    left: 950px;
+    top: 1950px;
+    z-index: 1;
+    filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.7));
+
+}
+
+

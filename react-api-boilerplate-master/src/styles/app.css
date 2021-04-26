@@ -1,0 +1,577 @@
+@import '~antd/dist/antd.css';
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+.img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+.image-center{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+
+.image-upload{
+    margin: auto;
+    width: 200px;
+    height: 50px;
+    color: white;
+    border-radius: 10px;
+    background-color: black;
+    text-align: center;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+.site-layout-background {
+    background: white;
+}
+
+.ant-layout {
+    min-height: 200vh;
+}
+
+.header-wrapper {
+    background: url("../images/footer.png");
+}
+
+.ant-menu {
+    background-color: transparent;
+}
+
+.ant-menu-horizontal {
+    border-bottom: none;
+}
+
+.logo-wrapper {
+    text-align: center;
+}
+
+.logo {
+    height: 32px;
+//min-width: 120px;
+    /*background-image: url('../imgs/logo.png');*/
+    /*!*background-color: #00aeef;*!*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: contain;*/
+    /*background-position: center;*/
+    margin: 16px;
+}
+
+.ant-layout-header {
+    height: auto;
+}
+
+.header {
+    background: transparent;
+    padding: 0;
+    /*position: fixed;*/
+    z-index: 1;
+    width: 100%;
+
+}
+.headerPage{
+    background: transparent;
+    padding: 0;
+    /*position: fixed;*/
+    z-index: 1;
+    width: 100%;
+    margin-top: 1em;
+}
+
+.header__trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.header__trigger:hover {
+    color: #00aeef;
+}
+
+.main-menu {
+    display: none;
+}
+
+.responsive-menu-button {
+    display: block;
+}
+
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item-group-title,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item > a{
+    color: #001529;
+}
+
+.responsive-menu-wrapper .ant-popover-inner-content {
+    padding:0;
+}
+
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item:hover,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item-active,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-active,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-open,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-selected,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-title:hover {
+    background-color: #001529;
+}
+
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item:hover > a,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-item-active > a,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-active > a,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-open > a,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-selected > a,
+.responsive-menu-wrapper .ant-menu-dark .ant-menu-submenu-title:hover > a {
+    color: #ffffff;
+}
+
+.page-title {
+    font-size: 2.0rem;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 0 20px;
+}
+
+.content {
+    overflow: initial;
+    padding: 0px 0;
+    background: transparent;
+    min-height: 30px;
+    display: flex;
+}
+
+.ant-table-thead > tr > th,
+.ant-table-tbody > tr > td {
+    padding: 16px 16px;
+    word-break: break-word;
+    -ms-word-break: break-all;
+}
+
+code {
+    background: #fafafa;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1.1rem;
+    font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
+    DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+}
+
+.footer {
+    /*text-align: center;*/
+    padding: 30px 10px;
+    min-height: 200px;
+    background: url("../images/footer.png");
+    color: #ffffff;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+.footer a {
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+.logo-blanco {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.logo-menta {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.contact-links {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.logos-social {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.footer-links {
+    text-align: left;
+}
+
+@media (min-width: 768px) {
+
+    .main-menu {
+        display: block;
+    }
+
+    .responsive-menu-button {
+        display: none;
+    }
+
+    .responsive-menu-button .bars{
+        display: block;
+        width: 20px;
+        height: 2px;
+        background: #1890ff;
+        position: relative;
+    }
+    .bars:after,.bars:before{
+        content: attr(x);
+        width: 20px;
+        position: absolute;
+        top: -6px;
+        left: 0;
+        height: 2px;
+        background: #1890ff;
+    }
+    .bars:after{
+        top: auto;
+        bottom: -6px;
+    }
+
+    .logo-wrapper {
+        text-align: left;
+    }
+
+    .ant-table-thead > tr > th,
+    .ant-table-tbody > tr > td {
+        padding: 16px 16px;
+    }
+
+    .footer {
+        padding: 30px 100px;
+        min-height: 200px;
+        background: url("../images/footer.png");
+        color: #ffffff;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 100%;
+        width: 100% ;
+        text-align: center;
+    }
+
+    .logo-blanco {
+        text-align: center;
+    }
+    .logo-w{
+        text-align: left;
+        width: auto;
+        height: auto;
+    }
+
+    .logo-menta {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .contact-links {
+        text-align: left;
+        margin-top: 0;
+    }
+
+    .logos-social {
+        margin-top: 0;
+        text-align: right;
+    }
+
+    .footer-links {
+        text-align: center;
+    }
+}
+
+
+/*// Extra small devices (portrait phones, less than 576px)*/
+/*!*@media (max-width: 575.98px) { ... }*!*/
+
+/*// Small devices (landscape phones, 576px and up)*/
+/*!*@media (min-width: 576px) and (max-width: 767.98px) { ... }*!*/
+
+/*// Medium devices (tablets, 768px and up)*/
+/*!*@media (min-width: 768px) and (max-width: 991.98px) { ... }*!*/
+
+/*// Large devices (desktops, 992px and up)*/
+/*!*@media (min-width: 992px) and (max-width: 1199.98px) { ... }*!*/
+
+/*// Extra large devices (large desktops, 1200px and up)*/
+/*!*@media (min-width: 1200px) { ... }*!*/
+
+
+
+.container-carousel{
+    padding:0;
+    height: auto;
+    width: auto;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+
+    textAlign: 'center';
+    background: #364d79;
+
+
+}
+@-webkit-keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}@keyframes swing-in-top-fwd{0%{-webkit-transform:rotateX(-100deg);transform:rotateX(-100deg);-webkit-transform-origin:top;transform-origin:top;opacity:0}100%{-webkit-transform:rotateX(0deg);transform:rotateX(0deg);-webkit-transform-origin:top;transform-origin:top;opacity:1}}
+.logoW{
+    width: 120%;
+    height: 120%;
+    -webkit-animation:swing-in-top-fwd 3s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-fwd 3s cubic-bezier(.175,.885,.32,1.275) both;
+}
+
+.logoPages{
+    width: 80%;
+    height: 80%;
+    -webkit-animation:swing-in-top-fwd 3s cubic-bezier(.175,.885,.32,1.275) both;animation:swing-in-top-fwd 3s cubic-bezier(.175,.885,.32,1.275) both;
+}
+
+/* seccion que es wasywallpay*/
+.imgExplanation{
+    background-image: url("../images/home_images/explicacion.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+/* seccion como comprar*/
+.imgHowBuy{
+    background-image: url("../images/home_images/como-comprar.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+    width: 100% ;
+    text-align: center;
+}
+
+/* seccion paginas secundarias*/
+.imgPage{
+    background-image: url("../images/ImgPages/fondo-paginas.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: auto;
+    width: auto ;
+
+}
+
+@font-face {
+    font-family: Geometos;
+    src:local('Geometos'),
+    url("./fonts/Geometos.ttf") format("truetype");
+
+}
+@font-face {
+    font-family: Geosans;
+    src:local('Geometos'),
+    url("./fonts/GeosansLight.ttf") format("truetype");
+
+}
+
+@font-face {
+    font-family: Kiona;
+    src:local('Kiona'),
+    url("./fonts/Kiona-Regular.ttf") format("truetype");
+
+}
+
+.title{
+    font-family: Geometos;
+    font-size: 30pt;
+    color: white;
+}
+.text{
+    font-family: GeosansSimple;
+    font-size: 15pt;
+    text-align: justify;
+    color: white;
+    width: auto;
+    height: auto;
+
+}
+
+.title1{
+    font-family: Geometos;
+    font-size: 50pt;
+    text-align: right;
+    color: white;
+    line-height: 50pt;
+}
+.title12{
+    font-family: Kiona;
+    font-size: 30pt;
+    text-align: left;
+    color: white;
+    line-height: 50pt;
+}
+.title13{
+    font-family: Geometos;
+    font-size: 40pt;
+    text-align: left;
+    color: white;
+    line-height: 50pt;
+}
+.subtitle{
+    font-family: Kiona;
+    font-size: medium;
+    color: black;
+}
+.subtitle2{
+    font-family: Geometos;
+    font-size: 30pt;
+    color: black;
+    text-align: center;
+}
+/*
+.categories{
+    width: 170px;
+}
+.btnCategories{
+    margin: 20px 10px;
+    border: none;
+    padding: 10px 44px;
+    position: relative;
+}
+.btnCategories::before {
+    -webkit-transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transition: all 0.85s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    content: '';
+    width: 50%;
+    height: 100%;
+    background: black;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.btnCategories .btnCategories-text {
+    color: white;
+    mix-blend-mode: difference;
+}
+
+.btnCategories:hover::before {
+    background: black;
+    width: 100%;
+}
+*/
+/*boton VER MAS*/
+.btn-General{
+    background-color: #650f2f;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    align-content: end;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-size: 12px;
+    font-family: Geometos;
+}
+
+
+
+/* FOOTER STYLES*/
+
+.footerTitle{
+    font-family: Geometos;
+    font-size: x-large;
+}
+.questions{
+    text-decoration: none;
+    text-align: right;
+
+
+}
+
+/*CATEGORIAS*/
+/*imagenes de categorias*/
+.image-categories {
+    display: inline-block;
+    width: 250px;
+    height: 190px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition: all 200ms ease-in;
+    filter: grayscale(1) opacity(.8);
+
+}
+
+.image-categories:hover {
+    filter: grayscale(0) opacity(1);
+
+}
+
+.image-categories::before,
+.image-categories::after {
+    transform: scaleY(-1);
+
+}
+
+.imageMusicales {
+    background-image: url("../images/Categories_logos/icono-artes-musicales-1.png");
+    background-position: center;
+}
+
+.imageLiterarias{
+    background-image: url("../images/Categories_logos/icono-artes-literarias-1.png");
+    background-position: center;
+
+}
+
+.imageEscenicas{
+    background-image: url("../images/Categories_logos/icono-artes-escénicas1.png");
+    background-position: center;
+}
+
+.imagesPlasticas{
+    background-image: url("../images/Categories_logos/icono-artes-plasticas-1.png");
+    background-position: center;
+}
+
+.imagesVisuales{
+    background-image: url("../images/Categories_logos/icono-artes-visuales-1.png");
+    background-position: center;
+}
+
+.imageArtesanias{
+    background-image: url("../images/Categories_logos/icono-artesanias-1.png");
+    background-position: center;
+}
+/*search core*/
+.textSearch{
+    font-family: GeosansSimple;
+    font-size: 13pt;
+    text-align: justify;
+    color: black;
+    width: auto;
+    height: auto;
+
+}
+
+
